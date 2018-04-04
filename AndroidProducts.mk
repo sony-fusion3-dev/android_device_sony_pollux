@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_pollux.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_pollux-user \
+    lineage_pollux-userdebug \
+    lineage_pollux-eng
